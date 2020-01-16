@@ -23,4 +23,6 @@ GET /top:
     Movies with the same number of comments should have the same position in the ranking.
     Should require specifying a date range for which statistics should be generated.
     
+    To see position of movie in rank and total number of comments in the specified date rage use from_date and to_date, e.g:
+    /top/?from_date=2019-12-12&to_date=2019-12-28
     
